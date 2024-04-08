@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    double result,x=10.5;
+    result=ceil(x);// ceil a point er por kono number takhle....purno sonka taker er porer number dekhabe
+    printf("ceil(%lf) = %lf\n\n",x,result);
+
+
+    result=floor(x);// floor a point er por kono number takhle....purno sonka k decrese korbe
+    printf("floor(%lf) = %lf\n",x,result);
+    return 0;
+}
