@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    double result,x=10.5;//trunc use korle point er porer number gula dekhabe na
+    result=trunc(x);
+    printf("trunc(%lf) = %lf",x,result);
+    return 0;
+}
