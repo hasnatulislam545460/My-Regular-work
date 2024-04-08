@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    double result,x=10.5;//round er jonno...jodi point er por 4 tekehe boro(10.6) kono number ashle..point er agher number er sathe 1 add korte hobe
+    
+    result=round(x);
+    printf("round(%lf) = %lf",x,result);
+    return 0;
+}
