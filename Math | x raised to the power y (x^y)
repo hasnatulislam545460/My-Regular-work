@@ -1,0 +1,11 @@
+//Math | x raised to the power y (x^y)
+
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int result;
+    result=pow(5,3);
+    printf("%d",result);
+    return 0;
+}
