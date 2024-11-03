@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() 
+{
+	int x;
+	scanf("%d",&x);
+	int n=x%100;
+	if(n<10)
+	{
+	    printf("K0%d",n);
+	}
+	else
+	    printf("K%d",n);
+	    
+	 return 0;
+}
